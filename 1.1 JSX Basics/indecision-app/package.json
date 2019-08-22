@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "live-server",
-    "babel-transpile": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+    "babel-transpile": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "babel-transpile-exercise": "babel src/built-it-toggle.js --out-file=public/scripts/app.js --presets=env,react --watch"
   },
   "keywords": [],
   "author": "",

@@ -2,6 +2,7 @@
   "name": "indecision-app",
   "version": "1.0.0",
   "scripts": {
+    "dev": "live-server",
     "babel-transpile": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
   },
   "keywords": [],
@@ -10,6 +11,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "live-server": "^1.2.1"
   }
 }
